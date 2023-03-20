@@ -1,0 +1,195 @@
+html {
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+::before ::after {
+  box-sizing: inherit;
+}
+.container {
+  width: 1128px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+body {
+  margin: 0;
+  font-family: 'Roboto';
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+header {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 25px 0px;
+}
+li {
+  list-style-type: none;
+  text-decoration: none;
+}
+.web {
+  font-family: 'Raleway';
+  font-size: 19px;
+  line-height: 24px;
+  color: #4d5ae5;
+}
+.Studio {
+  font-family: 'Raleway';
+  font-size: 19px;
+  line-height: 24px;
+  color: #2e2f42;
+  margin-left: 156px;
+}
+.menu {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  gap: 40px;
+  margin-left: 76px;
+}
+header {
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 1px 6px rgba(46, 47, 66, 0.08);
+  border-bottom: 1px solid #e7e9fc;
+  width: max-content;
+}
+.menu a:hover {
+  color: tomato;
+}
+.pudge {
+  display: flex;
+  gap: 24px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.pudge a:hover {
+  color: tomato;
+}
+.inf {
+  display: flex;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #434455;
+  margin-left: 156px;
+  gap: 40px;
+}
+.btn {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  padding: 12px 24px 12px 24px;
+  border-radius: 4px;
+  color: #ffffff;
+  background: #404bbf;
+  cursor: pointer;
+}
+.btn:hover {
+  color: tomato;
+}
+.info {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  gap: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #4d5ae5;
+}
+.section {
+  margin-top: 96px;
+  margin-bottom: 72px;
+}
+.img {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-bottom: 120px;
+}
+.img h3 {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  margin-bottom: 8px;
+  margin-top: 32px;
+}
+.img p {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 8px;
+  margin-bottom: 32px;
+}
+footer {
+  background-image: url(./img/Dark-bg\ 24.png);
+  height: 320px;
+  padding: 100px 0;
+  display: flex;
+  flex-direction: row;
+}
+.class2 .web {
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  color: #4d5ae5;
+}
+.class2 {
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  color: #f4f4fd;
+  display: block;
+  margin-left: 156px;
+  margin-bottom: 188px;
+}
+.class2 p {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.p {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-left: 120px;
+  color: #ffffff;
+}
+.card1 {
+  display: flex;
+  gap: 16px;
+}
+.card1 div {
+  border-radius: 50%;
+  background-color: #434455;
+}
+.ins2 {
+  padding: 12px 11.98px 12px 12.03px;
+}
+.twit2 {
+  padding: 13.5px 12px;
+}
+.facebok2 {
+  padding: 12px 15.87px;
+}
+.li2 {
+  padding: 12px;
+}
